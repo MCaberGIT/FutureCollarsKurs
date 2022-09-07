@@ -1,4 +1,4 @@
-package com.futurecollars.lesson9;
+package com.futurecollars.lesson9.zad2;
 
 public class FizzBuzz {
     private boolean isDivisibleBy(int value, int divider){
