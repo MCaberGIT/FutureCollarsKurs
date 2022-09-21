@@ -4,8 +4,6 @@ public class ConsoleMessage extends Message {
 
     @Override
     String getMessage() {
-        return "This is class WindowMessage";
+        return "This is class Console Message";
     }
-
-
 }
