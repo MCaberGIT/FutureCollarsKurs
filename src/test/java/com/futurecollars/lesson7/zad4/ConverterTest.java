@@ -10,7 +10,7 @@ public class ConverterTest {
         long minutes = 1;
         long expected = 60;
         //when
-        long actual = Converter.convertMinutesToSeconds(minutes);
+        long actual = ConverterToSeconds.convertMinutesToSeconds(minutes);
         //then
         Assertions.assertEquals(expected, actual);
     }
