@@ -1,14 +1,14 @@
 package com.futurecollars.lesson7.zad1;
 
-public class CinemaSeats {
+public class CinemaSeat {
 
     private final int number;
-    private final int rowNumbers;
+    private final int rowNumber;
     private boolean isFree;
 
-    public CinemaSeats(int number, int rowNumbers, boolean isFree) {
+    public CinemaSeat(int number, int rowNumber, boolean isFree) {
         this.number = number;
-        this.rowNumbers = rowNumbers;
+        this.rowNumber = rowNumber;
         this.isFree = isFree;
     }
 }
