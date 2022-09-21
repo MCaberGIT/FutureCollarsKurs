@@ -8,7 +8,7 @@ public class toUpperCaseFormatterTest {
     @Test
     void shouldUpperCase(){
         //given
-        toUpperCaseFormatter toUpperCaseFormatter = new toUpperCaseFormatter();
+        ToUpperCaseFormatter toUpperCaseFormatter = new ToUpperCaseFormatter();
         String text = "lubie placki";
         //when
         String result = toUpperCaseFormatter.formatText(text);

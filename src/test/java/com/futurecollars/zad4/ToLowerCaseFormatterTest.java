@@ -3,12 +3,12 @@ package com.futurecollars.zad4;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class toLowerCaseFormatterTest {
+public class ToLowerCaseFormatterTest {
 
     @Test
     void shouldLowerCase() {
         //given
-        toLowerCaseFormatter toLowerCaseFormatter = new toLowerCaseFormatter();
+        ToLowerCaseFormatter toLowerCaseFormatter = new ToLowerCaseFormatter();
         String text = "LUBIE PLACKI";
         //when
         String result = toLowerCaseFormatter.formatText(text);

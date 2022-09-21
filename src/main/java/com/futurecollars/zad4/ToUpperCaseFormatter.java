@@ -1,6 +1,6 @@
 package com.futurecollars.zad4;
 
-public class toUpperCaseFormatter implements TextFormatter {
+public class ToUpperCaseFormatter implements TextFormatter {
 
     @Override
     public String formatText(String text) {
