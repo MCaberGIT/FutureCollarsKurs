@@ -10,7 +10,7 @@ public class AgeServiceTest {
         int age = 18;
         boolean expected = true;
         //when
-        boolean actual = AgeService.isAgeOk(age);
+        boolean actual = AgeService.isAdult(age);
         //then
         Assertions.assertEquals(expected, actual);
     }
